@@ -16,6 +16,7 @@
    - 4.e Syntax Error Example
 
 <br />
+<br />
 
 ## 1) INTRODUCTION
 
@@ -40,6 +41,8 @@ been decided to stop doing it.
 This report will go by the order in which the algorithms were designed, the cited part of code will be
 shown in each section.
 
+<br />
+<br />
 
 ## 2) PARSER & INTERPRETER
 
@@ -94,6 +97,8 @@ functions only and will only be executed when a line of code read has been valid
 FSMs, basically the required function will be put into operation when an end of line has been
 reached.
 
+<br />
+<br />
 
 ### 2.b Memory
 
@@ -116,6 +121,8 @@ way around, this is because normally whenever a variable is declared it is used 
 
 ![](img/9.png)
 
+<br />
+<br />
 
 ### 2.c Outs
 
@@ -126,6 +133,8 @@ an array of characters, to save the referred element a void type pointer will be
 
 ![](img/10.png)
 
+<br />
+<br />
 
 ### 2.e Arithmetic Operations
 
@@ -151,6 +160,8 @@ reason, additionally this situation will also be controlled in the function of t
 
 ![](img/11.png)
 
+<br />
+<br />
 
 ### 2.f Execution of Blocks
 
@@ -171,6 +182,8 @@ the code will be executed again from the beginning of the point that it started.
 
 ![](img/12.png)
 
+<br />
+<br />
 
 ## 3) USER INPUTS & INTERPRETER IMPLEMENTATION
 
@@ -178,25 +191,49 @@ Now only the name of the file that you want to execute will be taken, for each p
 only one script will be able to be executed.
 As in the previous project, file names of any length can be taken.
 
+<br />
+<br />
 
 ## 4) Test Screenshots
 
 ### 4.a Finding the nth Fibonacci of 101 Digits
 
-...
-...
-...
-...
+![](img/13.png)
+![](img/14.png)
+.                                                  .                                               .
+.                                                  .                                               .
+.                                                  .                                               .
+.                                                  .                                               .
+![](img/15.png)
 
+<br />
+<br />
 
 ### 4.b Finding The Sum of The Consecutive Numbers Squared
 
+![](img/16.png)
+![](img/17.png)
+
+<br />
+<br />
 
 ### 4.c Drawing a Right-Angled Triangle
 
+![](img/18.png)
+![](img/19.png)
+
+<br />
+<br />
 
 ### 4.d Syntax Error Example
 
+![](img/20.png)
+![](img/21.png)
+
+<br />
+<br />
+
 ### 4.e Syntax Error Example
 
-
+![](img/22.png)
+![](img/23.png)
