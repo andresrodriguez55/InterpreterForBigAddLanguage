@@ -1,0 +1,20 @@
+int result.
+int n.
+int n_copy.
+int number.
+
+move 999 to n.
+
+out "Sum of consecutive ", n, " squares: ".
+
+loop n times
+[
+	move n to n_copy.
+	move n to number.
+
+	loop n_copy times
+		add number to result.
+
+]
+
+out result, newline.

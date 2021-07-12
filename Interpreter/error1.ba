@@ -1,0 +1,7 @@
+loop  -5 times 
+[
+	loop 2 times 
+	[ 
+		move 3 to var_undefined. 
+	] 
+]

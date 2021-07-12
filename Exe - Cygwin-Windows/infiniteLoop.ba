@@ -1,0 +1,4 @@
+int x.
+move 1 to x.
+
+loop x times[add 1 to x. out x, newline.]

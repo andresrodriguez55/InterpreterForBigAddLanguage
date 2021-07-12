@@ -1,0 +1,9 @@
+int n. int n_copy. move 25 to n.
+
+loop n times
+[
+	move 26 to n_copy. sub n from n_copy.
+	loop n_copy times
+		out "*".
+	out newline.
+]

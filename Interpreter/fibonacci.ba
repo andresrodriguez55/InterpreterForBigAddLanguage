@@ -1,0 +1,22 @@
+out 1, ". fibonacci number: ", 0, newline, 2, ". fibonacci number: ", 1, newline.
+
+int first. int second.
+move 0 to first. move 1 to second.
+
+int n_fibonacci_result.
+
+int counter.
+move 3 to counter.
+
+loop 490 times
+[
+	move 0 to n_fibonacci_result.
+	add first to n_fibonacci_result.
+	add second to n_fibonacci_result.
+
+	out counter, ". fibonacci number: ", n_fibonacci_result, newline.
+	
+	add 1 to counter.
+	move second to first.
+	move n_fibonacci_result to second.	
+]

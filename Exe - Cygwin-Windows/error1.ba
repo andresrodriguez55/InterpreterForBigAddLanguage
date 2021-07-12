@@ -1,0 +1,10 @@
+out "fsdgd".
+loop  -5 times 
+[
+	out 1.
+	loop 2 times 
+	[
+		out 1.
+		move 3 to var_undefined. 
+	] 
+]

@@ -1,0 +1,5 @@
+int x.
+move -000000000001 to x.
+out x, newline.
+
+loop 2 times[ out "hola!", newline. loop 2 times add x frommmm ++++ ]

@@ -1,0 +1,4 @@
+loop 2 times
+	loop 1 times[
+		loop 1 times[
+			loop 1 times[ out "ola", newline.]]]

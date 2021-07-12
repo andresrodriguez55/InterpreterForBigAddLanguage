@@ -1,0 +1,13 @@
+int result.
+int n.
+
+move 999999 to n.
+
+out "Sum of consecutive ", n, " numbers: ".
+
+loop n times
+[
+	add n to result.
+]
+
+out result, newline.
