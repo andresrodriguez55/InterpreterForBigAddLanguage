@@ -16,7 +16,6 @@
    - 4.e Syntax Error Example
 
 <br />
-<br />
 
 ## 1) INTRODUCTION
 
