@@ -1,9 +1,11 @@
+![Full Documentation](https://andresrodriguez55.github.io/#/post/9/Interpreter%20For%20The%20BigAdd%20Language%20Made%20With%20C)
+
 ## Link
 https://replit.com/@andresrodrigu/PL#main.c
 
 ## Contents
 
-- 1) INTRODUCTION
+- 1) INFORMATION
 - 2) PARSER & INTERPRETER
    - 2.a Design of The Algorithm
    - 2.b Memory
@@ -21,28 +23,10 @@ https://replit.com/@andresrodrigu/PL#main.c
 <br />
 <br />
 
-## 1) INTRODUCTION
+## 1) INFORMATION
 
 For the implementation of the interpreter the IDE Apache NetBeans 12.2 and Cygwin have been
 used.
-
-As two project groups have come together, there have been problems in being able to work and
-execute the code due to differences in compilers, that is why it has been obtained by working
-temporarily during the project with an online compiler. We leave the link here in case execution
-problems arise. To be able to see the documents that we use in the code production you must click
-on the "code" tab.
-
-![](img/1.png)
-![](img/2.png)
-
-It has stopped writing the .xl extension documents in order to make an interpreter as realistic as
-possible, having to execute each line of code individually (as long as it is correct) there have been
-problems with writing .xl documents in the loops, also it has not wanted to interpret the results of
-the .xl documents because that would rather simulate a compiler (since we would be reading the
-entire document first). As nothing has been said about writing .xl documents in this project it has
-been decided to stop doing it.
-This report will go by the order in which the algorithms were designed, the cited part of code will be
-shown in each section.
 
 <br />
 <br />
@@ -168,11 +152,6 @@ reason, additionally this situation will also be controlled in the function of t
 
 ### 2.f Execution of Blocks
 
-The same code that was used in the lexical analyzer will be used to execute the main blocks with the
-only difference that an .xl document will not be written and it will also be taken into account when a
-loop instruction has been read, in order to send it to a function written especially for loops that takes
-into account from one-line loops to nested loops.
-
 The design of the function that will execute the loops has been done in the style of unit tests, writing
 tests of all possible situations and correcting the code based on errors.
 
@@ -190,8 +169,7 @@ the code will be executed again from the beginning of the point that it started.
 
 ## 3) USER INPUTS & INTERPRETER IMPLEMENTATION
 
-Now only the name of the file that you want to execute will be taken, for each program execution
-only one script will be able to be executed.
+For each program execution only one script will be able to be executed.
 As in the previous project, file names of any length can be taken.
 
 <br />
